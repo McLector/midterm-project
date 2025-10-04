@@ -33,6 +33,16 @@ export default function BookingForm({ space: propSpace }) {
       return;
     }
 
+    // ✅ Prevent booking in the past
+    const today = new Date();
+    const selectedDate = new Date(date);
+
+    today.setHours(0, 0, 0, 0); // Ignore time
+    if (selectedDate < today) {
+      setMessage("⚠️ You cannot book for a past date.");
+      return;
+    }
+
     const booking = {
       id: "b_" + Date.now(),
       userId: user.id,
@@ -61,6 +71,9 @@ export default function BookingForm({ space: propSpace }) {
     setAttendees(1);
   }
 
+  // Get today's date in YYYY-MM-DD format for the date picker
+  const todayString = new Date().toISOString().split("T")[0];
+
   return (
     <div className="bg-white/10 p-6 rounded shadow max-w-lg mx-auto">
       <h3 className="text-xl font-semibold text-white text-center mb-4">
@@ -78,6 +91,7 @@ export default function BookingForm({ space: propSpace }) {
             type="date"
             value={date}
             onChange={(e) => setDate(e.target.value)}
+            min={todayString} // Prevent selecting past dates
             className="w-full border rounded p-2 bg-gray-800 text-white"
           />
         </div>
