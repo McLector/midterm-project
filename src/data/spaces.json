@@ -1,0 +1,131 @@
+[
+  {
+    "id": 1,
+    "name": "The Study Nook",
+    "location": "Quezon City",
+    "price": 300,
+    "main_image": "https://images.unsplash.com/photo-1505691938895-1758d7feb511?auto=format&fit=crop&w=800&q=80",
+    "images": [
+      "https://images.unsplash.com/photo-1521737604893-d14cc237f11d?auto=format&fit=crop&w=800&q=80",
+      "https://images.unsplash.com/photo-1493809842364-78817add7ffb?auto=format&fit=crop&w=800&q=80"
+    ],
+    "description": "A quiet and cozy space perfect for deep focus sessions. Equipped with soundproof pods and an extensive library for a productive day.",
+    "amenities": ["High-speed Wi-Fi", "Free Coffee & Tea", "Power Outlets at every seat", "Air-conditioned", "Printing Services"],
+    "hours": "9:00 AM - 9:00 PM",
+    "time_slots": ["9am - 1pm", "1pm - 5pm", "5pm - 9pm"]
+  },
+  {
+    "id": 2,
+    "name": "WorkHaven Makati",
+    "location": "Makati City",
+    "price": 500,
+    "main_image": "https://images.unsplash.com/photo-1552581234-26160f608093?auto=format&fit=crop&w=800&q=80",
+    "images": [
+      "https://images.unsplash.com/photo-1497366216548-37526070297c?auto=format&fit=crop&w=800&q=80",
+      "https://images.unsplash.com/photo-1522202176988-66273c2fd55f?auto=format&fit=crop&w=800&q=80"
+    ],
+    "description": "A professional co-working environment in the heart of the business district. Ideal for meetings, collaborations, and networking.",
+    "amenities": ["Fiber Internet", "Meeting Rooms", "Gourmet Pantry", "24/7 Access", "Ergonomic Chairs"],
+    "hours": "Open 24/7",
+    "time_slots": ["Full Day Pass", "Night Owl Pass (9pm-6am)"]
+  },
+  {
+    "id": 3,
+    "name": "Cebu Creative Hub",
+    "location": "Cebu City",
+    "price": 250,
+    "main_image": "https://images.unsplash.com/photo-1504384308090-c894fdcc538d?auto=format&fit=crop&w=800&q=80",
+    "images": [
+      "https://images.unsplash.com/photo-1487014679447-9f8336841d58?auto=format&fit=crop&w=800&q=80",
+      "https://images.unsplash.com/photo-1529333166437-7750a6dd5a70?auto=format&fit=crop&w=800&q=80"
+    ],
+    "description": "A vibrant and artistic space designed to foster creativity and collaboration among Cebu's digital nomads and artists.",
+    "amenities": ["Community Events", "Art Supplies", "Fast Wi-Fi", "Pet-friendly", "Outdoor Garden"],
+    "hours": "10:00 AM - 7:00 PM",
+    "time_slots": ["Morning Session (10am-2pm)", "Afternoon Session (2pm-6pm)"]
+  },
+  {
+    "id": 4,
+    "name": "BGC Work Loft",
+    "location": "Taguig City",
+    "price": 450,
+    "main_image": "https://cdn.agentimagehosting.com/loftph/2024/08/BGC.png",
+    "images": [],
+    "description": "Trendy loft-style co-working hub in BGC with rooftop views and plenty of natural light.",
+    "amenities": ["Panoramic View", "Private Pods", "Unlimited Coffee", "High-speed Internet"],
+    "hours": "7:00 AM - 11:00 PM",
+    "time_slots": ["Morning", "Afternoon", "Evening"]
+  },
+  {
+    "id": 5,
+    "name": "Manila Mindspace",
+    "location": "Manila",
+    "price": 200,
+    "main_image": "https://images.unsplash.com/photo-1522202176988-66273c2fd55f?auto=format&fit=crop&w=800&q=80",
+    "images": [],
+    "description": "A budget-friendly, minimalist workspace for students and freelancers.",
+    "amenities": ["Wi-Fi", "Snacks", "Air-conditioning"],
+    "hours": "8:00 AM - 10:00 PM",
+    "time_slots": ["Day Pass", "Evening Pass"]
+  },
+  {
+    "id": 6,
+    "name": "Davao Digital Den",
+    "location": "Davao City",
+    "price": 350,
+    "main_image": "https://images.unsplash.com/photo-1503387762-592deb58ef4e?auto=format&fit=crop&w=800&q=80",
+    "images": [],
+    "description": "Modern workspace tailored for IT professionals and digital nomads in Davao.",
+    "amenities": ["24/7 Access", "Conference Rooms", "Tech Support"],
+    "hours": "Open 24/7",
+    "time_slots": ["Flexible Hours"]
+  },
+  {
+    "id": 7,
+    "name": "Iloilo Innovators Hub",
+    "location": "Iloilo City",
+    "price": 280,
+    "main_image": "https://images.unsplash.com/photo-1600891964599-f61ba0e24092?auto=format&fit=crop&w=800&q=80",
+    "images": [],
+    "description": "Creative and collaborative environment for startups and students.",
+    "amenities": ["Events", "Workshops", "Free Coffee"],
+    "hours": "9:00 AM - 9:00 PM",
+    "time_slots": ["Morning", "Afternoon", "Evening"]
+  },
+  {
+    "id": 8,
+    "name": "Cavite Work Cafe",
+    "location": "Cavite",
+    "price": 180,
+    "main_image": "https://images.unsplash.com/photo-1524758631624-e2822e304c36?auto=format&fit=crop&w=800&q=80",
+    "images": [],
+    "description": "Cafe-style co-working space with cozy seating and affordable rates.",
+    "amenities": ["Coffee", "Snacks", "Wi-Fi"],
+    "hours": "10:00 AM - 10:00 PM",
+    "time_slots": ["Day Pass"]
+  },
+  {
+    "id": 9,
+    "name": "Baguio Brainery",
+    "location": "Baguio City",
+    "price": 220,
+    "main_image": "https://images.unsplash.com/photo-1500048993953-d23a436266cf?auto=format&fit=crop&w=800&q=80",
+    "images": [],
+    "description": "Cool mountain breeze and peaceful study environment in Baguio.",
+    "amenities": ["Scenic View", "Hot Drinks", "Quiet Zones"],
+    "hours": "8:00 AM - 8:00 PM",
+    "time_slots": ["Morning", "Afternoon"]
+  },
+  {
+    "id": 10,
+    "name": "Laguna Learning Lab",
+    "location": "Laguna",
+    "price": 260,
+    "main_image": "https://images.unsplash.com/photo-1522202176988-66273c2fd55f?auto=format&fit=crop&w=800&q=80",
+    "images": [],
+    "description": "Community-driven workspace encouraging collaboration and study sessions.",
+    "amenities": ["Wi-Fi", "Community Boards", "Free Snacks"],
+    "hours": "9:00 AM - 9:00 PM",
+    "time_slots": ["Day Pass", "Evening Pass"]
+  }
+]
